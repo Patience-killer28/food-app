@@ -5,11 +5,7 @@ import { CartContext } from "../App";
 
 const Header = () => {
   const { cart } = useContext(CartContext);
-  const refreshPage = () => {
-    setTimeout(() => {
-      window.location.reload(false);
-    }, 1000);
-  };
+
   return (
     <div className="navbar">
       <div className="logo">
@@ -18,9 +14,7 @@ const Header = () => {
       </div>
       <ul>
         <li>
-          <Link to="/food-app/" onClick={refreshPage}>
-            Home
-          </Link>
+          <Link to="/food-app/">Home</Link>
         </li>
         <li>
           <Link to="/Cart">
