@@ -8,7 +8,7 @@ const Header = () => {
   const refreshPage = () => {
     setTimeout(() => {
       window.location.reload(false);
-    }, 200);
+    }, 1000);
   };
   return (
     <div className="navbar">
@@ -18,7 +18,7 @@ const Header = () => {
       </div>
       <ul>
         <li>
-          <Link to="/food-app" onClick={refreshPage}>
+          <Link to="/food-app/" onClick={refreshPage}>
             Home
           </Link>
         </li>
