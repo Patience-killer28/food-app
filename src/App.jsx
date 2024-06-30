@@ -17,7 +17,7 @@ function App() {
         <div className="container">
           <Routes>
             <Route
-              path="\food-space"
+              path="/food-space"
               element={<Home />}
             />
             <Route path="/cart" element={<Viewcart />} />
