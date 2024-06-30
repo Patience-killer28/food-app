@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza",
+    "amnt": 10,
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9L3axS3bS96mC3_NyL2liYU2BBFcwUDiqow&usqp=CAU",
+    "shop": "Dominos",
+    "latest": "No"
+  },
+  {
+    "id": 2,
+    "name": "Burger",
+    "amnt": 20,
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw7AoOufwdCsG3uwQNfEn4s2xYZZJHqRIbUA&usqp=CAU",
+    "shop": "Pizza hut",
+    "latest": "No"
+  },
+  {
+    "id": 3,
+    "name": "Garlic Bread",
+    "amnt": 40,
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBOa57gKpO6BStdA7GN8TEQY8reOcb1W1n_w&usqp=CAU",
+    "shop": "Oven Story",
+    "latest": "No"
+  },
+  {
+    "id": 4,
+    "name": "Choco Truffle",
+    "amnt": 40,
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS90yQgR10DRIansRyGTxHrSyMAdIILXfJCBg&usqp=CAU",
+    "shop": "Mizzam",
+    "latest": "No"
+  },
+  {
+    "id": 5,
+    "name": "Pepsi",
+    "amnt": 10,
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMIWrcmDDYPj04-4uHCEv2zV5pvxcQnp-iVQ&usqp=CAU",
+    "shop": "Pepsi Cola",
+    "latest": "No"
+  },
+  {
+    "id": 6,
+    "name": "Noodles Veg",
+    "amnt": 10,
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF9VcrSLp9Oli8PSjCysEZQ3yca4h2cIka0Q&usqp=CAU",
+    "shop": "Fried Noodles",
+    "latest": "No"
+  },
+  {
+    "id": 7,
+    "name": "Atho",
+    "amnt": 10,
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxu16EAWHym4u6T6pUkrFYenE3sRP0eRzjTg&usqp=CAU",
+    "shop": "Fried Noodles",
+    "latest": "No"
+  },
+  {
+    "id": 8,
+    "name": "Noodles Beef",
+    "amnt": 10,
+    "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF9VcrSLp9Oli8PSjCysEZQ3yca4h2cIka0Q&usqp=CAU",
+    "shop": "Fried Noodles",
+    "latest": "No"
+  }
+]

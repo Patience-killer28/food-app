@@ -1,0 +1,84 @@
+.container1 {
+  background-color: yellow;
+  padding: 20px 40px;
+  border-radius: 10px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.container1 h1 {
+  text-align: center;
+}
+
+.container1 a.signup {
+  text-decoration: none;
+  padding-left: 20px;
+  color: black
+}
+.container1 a.signup:hover {
+  
+  color: rgb(251, 0, 0)
+}
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(205, 187, 50);
+  border: 0;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.text {
+  margin-top: 30px;
+}
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
+}
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px rgb(0, 0, 0) solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: rgb(9, 9, 9);
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color:black;
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.form-control input:focus + label,
+.form-control input:valid + label {
+  color:black;
+  transform: translateY(-30px);
+}
