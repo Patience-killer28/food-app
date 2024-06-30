@@ -18,7 +18,7 @@ const Header = () => {
       </div>
       <ul>
         <li>
-          <Link to="/" onClick={refreshPage}>
+          <Link to="/food-app" onClick={refreshPage}>
             Home
           </Link>
         </li>
