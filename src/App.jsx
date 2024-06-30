@@ -16,10 +16,7 @@ function App() {
         <Header />
         <div className="container">
           <Routes>
-            <Route
-              path="https://patience-killer28.github.io/"
-              element={<Home />}
-            />
+            <Route path="/" element={<Home />} />
             <Route path="/cart" element={<Viewcart />} />
             <Route path="/login" element={<Login />} />
             <Route path="/place-order" element={<PlaceOrder />} />
